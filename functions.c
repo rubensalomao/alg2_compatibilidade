@@ -62,7 +62,6 @@ Lista* preparar_lista(){
 }
 
 //ADICIONAR AO HEADER
-void 
 
 Lista* enqueue (Lista *f, int cod, int ram_val, int hd_val, double proc_clock_val, double comp_val) {
     if (f == NULL) {
@@ -203,4 +202,10 @@ void liberar (Lista *lista) {
         free (v);
         v = aux;
     }
+}
+
+//MENU
+void print_menu(){
+    printf("--- COMPARAÇÃO DE RESULTADOS ---\n");
+    
 }

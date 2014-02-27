@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 Gabriel Bellon. All rights reserved.
 //
 
-#include "functions.h"
+#include "functions.c"
 
 int main(int argc, const char * argv[]) {
+    print_menu();
     
 }

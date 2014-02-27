@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 //Valor das opções de componentes
 extern int RAM_VAL_1GB;
 extern int RAM_VAL_2GB;
@@ -47,6 +46,8 @@ PC* init_PC(int ram_val, int hd_val, double proc_clock_val);
 
 Lista* inserir (Lista* lista, int cod, int ram_val, int hd_val, double proc_clock_val);
 
+Lista* preparar_lista();
+
 void imprimir (Lista *lista);
 
 Lista* comparar(Lista *lista, PC *pc);
@@ -64,3 +65,5 @@ Lista* dequeue (Lista *f);
 int front (Lista *f);
 
 int empty (Lista *f);
+
+void print_menu();
